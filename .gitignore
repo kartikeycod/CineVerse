@@ -1,0 +1,14 @@
+# Node
+node_modules/
+dist/
+
+# Env files
+.env
+.env.local
+
+# Firebase
+.firebase/
+.firestore/
+
+# OS
+.DS_Store

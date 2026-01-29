@@ -1,0 +1,47 @@
+.analytics-wrapper {
+  background: #121212;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.analytics-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: #1c1c1c;
+  padding: 18px;
+  border-radius: 14px;
+}
+
+.card h4 {
+  color: #aaa;
+}
+
+.card p {
+  font-size: 22px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.csv-btn {
+  margin: 10px 0;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: #ff5722;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

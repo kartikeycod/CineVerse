@@ -1,0 +1,46 @@
+.pricing-wrapper {
+  padding: 30px;
+}
+
+.pricing-header h2 {
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.pricing-header p {
+  color: #aaa;
+  margin-bottom: 24px;
+}
+
+.pricing-card {
+  background: #121212;
+  padding: 24px;
+  max-width: 600px;
+  border-radius: 14px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+}
+
+.pricing-card select {
+  width: 100%;
+  padding: 12px;
+  background: #1c1c1c;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.price-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.price-grid input {
+  padding: 12px;
+  background: #1c1c1c;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  color: white;
+}

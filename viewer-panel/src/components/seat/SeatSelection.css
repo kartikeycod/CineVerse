@@ -1,0 +1,55 @@
+.seat-page {
+  padding: 30px;
+}
+
+.seat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 50px);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.seat {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: #e0e0e0;
+  font-size: 12px;
+}
+
+.seat.selected {
+  background: #4caf50;
+  color: white;
+}
+
+.seat.locked {
+  background: #ffc107;
+  cursor: not-allowed;
+}
+
+.seat.booked {
+  background: #f44336;
+  cursor: not-allowed;
+  color: white;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.actions button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.actions .cancel {
+  background: #f44336;
+  color: white;
+}
