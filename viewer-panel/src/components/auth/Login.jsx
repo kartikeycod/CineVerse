@@ -1,4 +1,4 @@
-import "./Auth.css";
+import "./auth.css";
 import { useState } from "react";
 import { auth, googleProvider } from "../../firebase/firebase";
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
