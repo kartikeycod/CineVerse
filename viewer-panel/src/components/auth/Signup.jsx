@@ -1,4 +1,4 @@
-import "./Auth.css";
+import "./auth.css";
 import { useState } from "react";
 import { auth, db } from "../../firebase/firebase";
 import {
