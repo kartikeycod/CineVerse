@@ -7,8 +7,9 @@ import {
   signOut
 } from "firebase/auth";
 import { auth, googleProvider } from "../../firebase/auth";
-import "./Login.css";
+import "./login.css";
 import { useNavigate } from "react-router-dom";
+
 
 
 function Login() {
